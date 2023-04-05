@@ -1,7 +1,4 @@
-// require('dotenv').config();
-
-const API_KEY = process.env.API_KEY_ENV;
-
+const API_KEY = "api_key_here";
 const API_URL = "https://ci-jshint.herokuapp.com/api";
 const resultsModal = new bootstrap.Modal(document.getElementById("resultsModal"));
 
